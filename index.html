@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohees SUBERU | Développeur Web & Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+
+    <!-- ===== EN-TÊTE ===== -->
+    <header class="header">
+        <a href="#home" class="logo">Rohees<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home" data-i18n="nav_home">Accueil</a>
+            <a href="#about" data-i18n="nav_about">À propos</a>
+            <a href="#skills" data-i18n="nav_skills">Compétences</a>
+            <a href="#projects" data-i18n="nav_projects">Projets</a>
+            <a href="#contact" data-i18n="nav_contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <button class="lang-btn" id="lang-btn">EN</button>
+            <i class="bx bx-menu" id="menu-icon"></i>
+        </div>
+    </header>
+
+        <!-- ===== ACCUEIL ===== -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <p class="home-hello" data-i18n="home_hello">👋 Bonjour, je suis</p>
+            <h1>Rohees <span>SUBERU</span></h1>
+            <h2 data-i18n="home_title">Développeur Web & Mobile</h2>
+            <p class="home-text" data-i18n="home_text">
+                Étudiant en Génie Logiciel, je crée des sites web et des applications
+                mobiles avec HTML, CSS, JavaScript, PHP et Flutter/Firebase.
+                Basé à Ibadan, Nigeria.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn btn-primary" data-i18n="home_btn_projects">Voir mes projets</a>
+                <a href="#contact" class="btn btn-outline" data-i18n="home_btn_contact">Me contacter</a>
+            </div>
+
+            <div class="home-social">
+                <a href="https://github.com/SJRAFOB" target="_blank" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/suberu-junior-183b07447" target="_blank" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://wa.me/2348060789922" target="_blank" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="img/profile.jpg" alt="Photo de Rohees SUBERU">
+        </div>
+    </section>
+
+        <!-- ===== À PROPOS ===== -->
+    <section class="about" id="about">
+        <div class="section-title">
+            <span data-i18n="about_tag">À propos</span>
+            <h2 data-i18n="about_heading">Qui suis-je ?</h2>
+        </div>
+
+        <div class="about-intro">
+            <p data-i18n="about_p1">
+                Je suis un développeur passionné, diplômé en Informatique Génie Logiciel
+                à HEC Biétry (Abidjan). J'aime transformer une idée en une application
+                concrète, utile et agréable à utiliser.
+            </p>
+            <p data-i18n="about_p2">
+                Aujourd'hui installé à Ibadan, je continue de me former au développement
+                web à NIIT, tout en développant ELECTROMANIA, l'application e-commerce de
+                ma propre boutique. Je parle couramment français et anglais.
+            </p>
+        </div>
+
+        <!-- Chiffres clés -->
+        <div class="about-stats">
+            <div class="stat">
+                <h3>3+</h3>
+                <p data-i18n="stat_years">Années d'études en informatique</p>
+            </div>
+            <div class="stat">
+                <h3>3</h3>
+                <p data-i18n="stat_projects">Projets réalisés</p>
+            </div>
+            <div class="stat">
+                <h3>16/20</h3>
+                <p data-i18n="stat_thesis">Note du mémoire de fin d'études</p>
+            </div>
+        </div>
+
+        <!-- Formation + Expérience -->
+        <div class="about-columns">
+
+            <div class="timeline">
+                <h3 class="timeline-title"><i class="bx bxs-graduation"></i> <span data-i18n="edu_title">Formation</span></h3>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2026</span>
+                    <h4 data-i18n="edu1_title">Formation Développement Web</h4>
+                    <p class="timeline-place">NIIT — Ibadan, Nigeria</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2023 – 2026</span>
+                    <h4 data-i18n="edu2_title">Licence Informatique Génie Logiciel</h4>
+                    <p class="timeline-place">HEC Biétry — Abidjan</p>
+                    <p data-i18n="edu2_text">Mémoire : HEC Connect, application mobile Flutter/Firebase (16/20).</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2023</span>
+                    <h4 data-i18n="edu3_title">Baccalauréat A1</h4>
+                    <p class="timeline-place">Lycée Sainte Nancy</p>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <h3 class="timeline-title"><i class="bx bxs-briefcase"></i> <span data-i18n="exp_title">Expérience</span></h3>
+
+                <div class="timeline-item">
+                    <span class="timeline-date" data-i18n="exp1_date">2026 – aujourd'hui</span>
+                    <h4 data-i18n="exp1_title">Fondateur & Développeur — ELECTROMANIA</h4>
+                    <p class="timeline-place">Abidjan → Ibadan</p>
+                    <p data-i18n="exp1_text">Création de l'application e-commerce (Flutter/Firebase) de ma boutique de téléphones et accessoires.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-date">2022 – 2026</span>
+                    <h4 data-i18n="exp2_title">Vendeur — Semi Électronique et Accessoires</h4>
+                    <p class="timeline-place">Abidjan</p>
+                    <p data-i18n="exp2_text">Vente, gestion de magasin et vente en ligne (pendant les vacances scolaires).</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+        <!-- ===== COMPÉTENCES ===== -->
+    <section class="skills" id="skills">
+        <div class="section-title">
+            <span data-i18n="skills_tag">Compétences</span>
+            <h2 data-i18n="skills_heading">Mes outils de travail</h2>
+        </div>
+
+        <!-- Légende des niveaux -->
+        <div class="skills-legend">
+            <span class="level level-strong" data-i18n="lvl_strong">Maîtrisé</span>
+            <span class="level level-mid" data-i18n="lvl_mid">Intermédiaire</span>
+            <span class="level level-learning" data-i18n="lvl_learning">En apprentissage</span>
+        </div>
+
+        <div class="skills-container">
+
+            <!-- Carte 1 : Front-end -->
+            <div class="skill-card">
+                <div class="skill-card-head">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Front-end</h3>
+                </div>
+                <ul class="skill-list">
+                    <li><i class="bx bxl-html5"></i> HTML5 <span class="level level-strong" data-i18n="lvl_strong">Maîtrisé</span></li>
+                    <li><i class="bx bxl-css3"></i> CSS3 <span class="level level-strong" data-i18n="lvl_strong">Maîtrisé</span></li>
+                    <li><i class="bx bx-mobile-alt"></i> Responsive Design <span class="level level-strong" data-i18n="lvl_strong">Maîtrisé</span></li>
+                    <li><i class="bx bxl-javascript"></i> JavaScript <span class="level level-learning" data-i18n="lvl_learning">En apprentissage</span></li>
+                </ul>
+            </div>
+
+            <!-- Carte 2 : Back-end -->
+            <div class="skill-card">
+                <div class="skill-card-head">
+                    <i class="bx bx-server"></i>
+                    <h3 data-i18n="skills_back">Back-end & Données</h3>
+                </div>
+                <ul class="skill-list">
+                    <li><i class="bx bxl-php"></i> PHP <span class="level level-strong" data-i18n="lvl_strong">Maîtrisé</span></li>
+                    <li><i class="bx bxl-firebase"></i> Firebase <span class="level level-strong" data-i18n="lvl_strong">Maîtrisé</span></li>
+                    <li><i class="bx bx-data"></i> SQL / MySQL <span class="level level-learning" data-i18n="lvl_learning">En apprentissage</span></li>
+                    <li><i class="bx bxl-java"></i> Java <span class="level level-learning" data-i18n="lvl_learning">En apprentissage</span></li>
+                </ul>
+            </div>
+
+            <!-- Carte 3 : Mobile & Outils -->
+            <div class="skill-card">
+                <div class="skill-card-head">
+                    <i class="bx bx-wrench"></i>
+                    <h3 data-i18n="skills_tools">Mobile & Outils</h3>
+                </div>
+                <ul class="skill-list">
+                    <li><i class="bx bxl-flutter"></i> Flutter / Dart <span class="level level-mid" data-i18n="lvl_mid">Intermédiaire</span></li>
+                    <li><i class="bx bxl-visual-studio"></i> VS Code <span class="level level-strong" data-i18n="lvl_strong">Maîtrisé</span></li>
+                    <li><i class="bx bxl-git"></i> Git <span class="level level-learning" data-i18n="lvl_learning">En apprentissage</span></li>
+                    <li><i class="bx bxl-github"></i> GitHub <span class="level level-learning" data-i18n="lvl_learning">En apprentissage</span></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Atouts en plus -->
+        <div class="soft-skills">
+            <h3 data-i18n="soft_title">Atouts</h3>
+            <div class="soft-list">
+                <span data-i18n="soft_1">🇫🇷 Français (langue principale)</span>
+                <span data-i18n="soft_2">🇬🇧 Anglais courant</span>
+                <span data-i18n="soft_3">🤝 Relation client & vente</span>
+                <span data-i18n="soft_4">📦 Gestion de boutique</span>
+                <span data-i18n="soft_5">🔄 Interprétariat FR ↔ EN</span>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- ===== PROJETS ===== -->
+    <section class="projects" id="projects">
+        <div class="section-title">
+            <span data-i18n="projects_tag">Projets</span>
+            <h2 data-i18n="projects_heading">Ce que j'ai réalisé</h2>
+        </div>
+
+        <div class="projects-container">
+
+            <!-- Projet 1 : HEC Connect -->
+            <article class="project-card">
+                <div class="project-img">
+                    <img src="img/hec-connect.png" alt="Application HEC Connect">
+                    <span class="project-badge badge-done" data-i18n="badge_thesis">Mémoire · 16/20</span>
+                </div>
+                <div class="project-body">
+                    <p class="project-type"><i class="bx bx-mobile"></i> <span data-i18n="type_mobile">Application mobile</span></p>
+                    <h3>HEC Connect</h3>
+                    <p class="project-desc" data-i18n="p1_desc">
+                        Application universitaire pour HEC Biétry : messagerie en temps réel,
+                        notifications push ciblées par rôle, niveau et filière, emploi du temps
+                        et accès différent selon le profil (étudiant, enseignant, administration).
+                    </p>
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                        <span>Firestore</span>
+                        <span>FCM</span>
+                        <span>Cloudinary</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SJRAFOB" target="_blank"><i class="bx bxl-github"></i> <span data-i18n="link_code">Code</span></a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Projet 2 : ELECTROMANIA -->
+            <article class="project-card">
+                <div class="project-img">
+                    <img src="img/electromania.png" alt="Application ELECTROMANIA">
+                    <span class="project-badge badge-progress" data-i18n="badge_progress">En cours</span>
+                </div>
+                <div class="project-body">
+                    <p class="project-type"><i class="bx bx-cart"></i> <span data-i18n="type_ecommerce">E-commerce mobile</span></p>
+                    <h3>ELECTROMANIA</h3>
+                    <p class="project-desc" data-i18n="p2_desc">
+                        Application e-commerce de ma propre boutique (téléphones, tablettes,
+                        accessoires) : catalogue, panier, paiement à la livraison et espace
+                        administrateur pour gérer les produits et les commandes.
+                    </p>
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                        <span>Cloudinary</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SJRAFOB" target="_blank"><i class="bx bxl-github"></i> <span data-i18n="link_code">Code</span></a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Projet 3 : Burger Guy -->
+            <article class="project-card">
+                <div class="project-img">
+                    <img src="img/burger-guy.png" alt="Site Burger Guy">
+                    <span class="project-badge badge-done" data-i18n="badge_done">Terminé</span>
+                </div>
+                <div class="project-body">
+                    <p class="project-type"><i class="bx bx-globe"></i> <span data-i18n="type_web">Site web</span></p>
+                    <h3>Burger Guy</h3>
+                    <p class="project-desc" data-i18n="p3_desc">
+                        Site vitrine responsive pour un restaurant de burgers : menu, services,
+                        menu mobile en JavaScript et illustrations sur mesure.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SJRAFOB" target="_blank"><i class="bx bxl-github"></i> <span data-i18n="link_code">Code</span></a>
+                        <a href="#" target="_blank"><i class="bx bx-link-external"></i> <span data-i18n="link_demo">Démo</span></a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+        <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <span data-i18n="contact_tag">Contact</span>
+            <h2 data-i18n="contact_heading">Travaillons ensemble</h2>
+        </div>
+
+        <div class="contact-container">
+
+            <!-- Colonne gauche : infos -->
+            <div class="contact-info">
+                <p class="contact-intro" data-i18n="contact_intro">
+                    Je suis à la recherche d'un stage ou d'un poste de développeur junior,
+                    en présentiel à Ibadan ou à distance. N'hésitez pas à me contacter !
+                </p>
+
+                <a href="mailto:suberujr@gmail.com" class="contact-item">
+                    <i class="bx bx-envelope"></i>
+                    <div>
+                        <span>Email</span>
+                        <p>suberujr@gmail.com</p>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/2348060789922" target="_blank" class="contact-item">
+                    <i class="bx bxl-whatsapp"></i>
+                    <div>
+                        <span>WhatsApp</span>
+                        <p>+234 806 078 9922</p>
+                    </div>
+                </a>
+
+                <div class="contact-item">
+                    <i class="bx bx-map"></i>
+                    <div>
+                        <span data-i18n="contact_location">Localisation</span>
+                        <p>Ibadan, Nigeria</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colonne droite : formulaire -->
+            <form class="contact-form" action="https://formspree.io/f/xzeenglz" method="POST">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Votre nom" data-i18n-ph="form_name" required>
+                    <input type="email" name="email" placeholder="Votre email" data-i18n-ph="form_email" required>
+                </div>
+                <input type="text" name="subject" placeholder="Sujet" data-i18n-ph="form_subject">
+                <textarea name="message" rows="6" placeholder="Votre message" data-i18n-ph="form_message" required></textarea>
+                <button type="submit" class="btn btn-primary" data-i18n="form_send">Envoyer le message</button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- ===== PIED DE PAGE ===== -->
+    <footer class="footer">
+        <a href="#home" class="logo">Rohees<span>.</span></a>
+
+        <div class="footer-social">
+            <a href="https://github.com/SJRAFOB" target="_blank" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/suberu-junior-183b07447" target="_blank" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://wa.me/2348060789922" target="_blank" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+        </div>
+
+        <p class="footer-copy">
+            © <span id="year">2026</span> Rohees SUBERU. <span data-i18n="footer_rights">Tous droits réservés.</span>
+        </p>
+
+        <a href="#home" class="back-to-top" aria-label="Retour en haut"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
